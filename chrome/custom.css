@@ -1,0 +1,23 @@
+#forward-button,
+#identity-box,
+#tracking-protection-icon-container,
+#star-button-box,
+#picture-in-picture-button {
+  display: none !important;
+}
+
+#sidebar-button {
+  --toolbarbutton-active-background: transparent !important;
+}
+
+#toolbar-context-toggle-vertical-tabs,
+#toolbar-context-customize +menuseparator {
+  display: none !important;
+}
+
+
+toolbarbutton[disabled=true] {
+  display: none !important;
+}
+
+
